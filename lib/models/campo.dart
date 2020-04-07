@@ -38,7 +38,7 @@ class Campo {
 
     if (_minado) {
       _explodido = true;
-      throw ExplosioException();
+      throw ExplosaoException();
     }
 
     if (vizinhacaSegura) {
